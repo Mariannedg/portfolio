@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div>
                     <ul className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 text-lg hover:border-b'>Home test</li>
+                            <li className='ml-10 text-lg hover:border-b'>Home</li>
                         </Link>
                         <Link href='/'>
                             <li className='ml-10 text-lg hover:border-b'>Over mij</li>
