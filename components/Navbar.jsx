@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div>
                     <ul className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 text-lg hover:border-b'>Home</li>
+                            <li className='ml-10 text-lg hover:border-b'>Home test</li>
                         </Link>
                         <Link href='/'>
                             <li className='ml-10 text-lg hover:border-b'>Over mij</li>
@@ -30,7 +30,9 @@ const Navbar = () => {
                 </div>
             </div>
             {/* Mobile menu */}
-            <div className='fixed left-0 top-0 w-full h-screen bg-black/70'></div>
+            <div className='fixed left-0 top-0 w-full h-screen bg-black/70'>
+                <div></div>
+            </div>
         </div>
     )
 }
