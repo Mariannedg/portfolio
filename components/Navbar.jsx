@@ -25,6 +25,9 @@ const Navbar = () => {
                             <li className='ml-10 text-lg hover:border-b'>Over mij</li>
                         </Link>
                         <Link href='/'>
+                            <li className='ml-10 text-lg hover:border-b'>Vaardigheden</li>
+                        </Link>
+                        <Link href='/'>
                             <li className='ml-10 text-lg hover:border-b'>Projecten</li>
                         </Link>
                         <Link href='/'>
@@ -54,6 +57,9 @@ const Navbar = () => {
                             </Link>
                             <Link href='/'>
                                 <li className='py-4 text-lg'>Over mij</li>
+                            </Link>
+                            <Link href='/'>
+                                <li className='py-4 text-lg'>Vaardigheden</li>
                             </Link>
                             <Link href='/'>
                                 <li className='py-4 text-lg'>Projecten</li>
